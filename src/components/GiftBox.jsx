@@ -362,7 +362,7 @@ const GiftBox = () => {
             Thank you for being the most amazing person in my life. I love you more with each passing day! 💖
           </Message>
           <LinkButton 
-            href="https://www.google.com" 
+            href="https://fastidious-kheer-751cb9.netlify.app/" 
             target="_blank"
             rel="noopener noreferrer"
           >

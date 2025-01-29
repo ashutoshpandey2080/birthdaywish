@@ -1,0 +1,33 @@
+.cake-cutting {
+    text-align: center;
+  }
+  
+  .cake {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    cursor: pointer;
+  }
+  
+  .layer {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #f4a460;
+  }
+  
+  .layer.top {
+    top: 0;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .layer.bottom {
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .cake.cut .layer.top {
+    transform: translateY(-50%);
+    transition: transform 1s ease;
+  }
